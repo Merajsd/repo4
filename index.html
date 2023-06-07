@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <style>
+      .mask {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 55px;
+        left: 0px;
+        height: 400px;
+        width: 100vw;
+      }
+      h1 {
+        font-size: 77px;
+        text-shadow: 5px 5px #000000;
+      }
+      .Services {
+        margin: 15px;
+        padding: 10px;
+        position: absolute;
+        background: white;
+        box-shadow: 5px 3px 3px 5px  rgb(141, 141, 141);
+        width: 50vw;
+        height: 500px;
+        border-radius: 30px;
+        
+        
+      }
+      .pServices{
+        padding: 10px;
+        box-shadow: 5px 3px 3px 3px  rgb(141, 141, 141);
+        width: 90vw;
+        margin: 15px;
+        border-radius: 40px;
+
+      }
+      .sServices{ margin: 15px;
+        padding: 10px;
+        position: absolute;
+        background: white;
+        box-shadow: 5px 3px 3px 5px  rgb(141, 141, 141);
+        width: 50vw;
+        height: 500px;
+        border-radius: 30px;
+        line-height: 30px;
+
+
+      }
+      .infra{
+        display: flex;
+        margin: 25px;
+        position: relative;
+        left: 55vw;
+        height: 500px;
+        background-image: url(https://www.serveradminz.com/wp-content/uploads/2015/12/ims.jpg);
+        width: 40vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+
+
+
+      }
+      .pinfra{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+        margin-top: 30px;
+        padding-top: 30px;
+        left: 10vw;
+     
+        position: relative;
+      
+        height: 500px;
+        background-image: url(https://www.virtuozzo.com/company/blog/wp-content/uploads/2019/06/what-is-paas.png);
+        width: 90vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+
+
+
+      }
+      .sinfra{ display: flex;
+        margin: 20px;
+        position: relative;
+        left: 50vw;
+        height: 500px;
+        background-image: url(https://distantjob.com/wp-content/uploads/2021/12/Stages-of-the-SaaS-Software-Development-Life-Cycle.jpg);
+        width: 50vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+      }
+      
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('https://cdn.ttgtmedia.com/visuals/ComputerWeekly/Hero%20Images/public-cloud-computing-3-fotolia.jpg');
+          height: 400px;
+        "
+      >
+        <div
+          class="mask"
+          style="background-color: rgba(0, 0, 0, 0.6); background-image: cover"
+        >
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">Cloudscape Innovations</h1>
+              <h4 class="mb-3">Empowering Your Digital Transformation</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+    <div class="Services">
+      <h2>IAAS (infrastructure as a service)</h2>
+      <p>
+        In an IaaS service model, a cloud provider hosts the infrastructure components that are traditionally present in an on-premises data center. This includes servers, storage and networking hardware, as well as the virtualization or hypervisor layer.
+
+IaaS providers also supply a range of services to accompany those infrastructure components. These can include the following: <br>
+<ul>
+    <li>detailed billing</li>
+    <li>monitoring</li>
+    <li>log access</li>
+    <li>security</li>
+    <li>load balancing</li>
+    <li>clustering</li>
+</ul>
+ and
+storage resiliency, such as backup, replication and recovery.
+These services are increasingly policy-driven, enabling IaaS users to implement greater levels of automation and orchestration for important infrastructure tasks. For example, a user can implement policies to drive load balancing to maintain application availability and performance.
+      </p>
+    </div>
+    <div class="infra">
+
+    </div>
+
+    <div class="pServices">
+      <h2>PAAS (platforme as a service)</h2>
+      <p>
+        Platform-as-a-Service offers the runtime environment for applications. It also offers development and deployment tools required to develop applications. PaaS has a feature of point-and-click tools that enables non-developers to create web applications.
+
+App Engine of Google and Force.com are examples of PaaS offering vendors. Developer may log on to these websites and use the built-in API to create web-based applications.
+
+But the disadvantage of using PaaS is that, the developer locks-in with a particular vendor. For example, an application written in Python against API of Google, and using App Engine of Google is likely to work only in that environment.
+
+The following diagram shows how PaaS offers an API and development tools to the developers and how it helps the end user to access business applications.
+      </p>
+    
+    </div>
+    <div class="pinfra">
+
+    </div>
+    <div class="sServices">
+      <h2>SAAS (Softwear as a service)</h2>
+      <p>
+   
+        
+        SaaS is one of three main categories of cloud computing, alongside infrastructure as a service (IaaS) and platform as a service (PaaS). A range of IT professionals, business users and personal users use SaaS applications. Products range from personal entertainment, such as Netflix, to advanced IT tools. Unlike IaaS and PaaS, SaaS products are frequently marketed to both B2B and B2C users. <br>
+        
+        According to a recent McKinsey & Company report, technology industry analysts predict further growth in the software as a service market, and expect to see the market for SaaS products near $200 billion by 2024.
+        <br>
+        How does software as a service work?
+SaaS works through the cloud delivery model. A software provider will either host the application and related data using its own servers, databases, networking and computing resources, or it may be an ISV that contracts a cloud provider to host the application in the provider's data center. The application will be accessible to any device with a network connection. SaaS applications are typically accessed via web browsers.
+      </p>
+    </div>
+    <div class="sinfra">
+
+    </div>
+    <div>
+      <img src="https://pimages.toolbox.com/wp-content/uploads/2021/07/23080841/Iaas_Paas-3-1.png" alt="">
+    </div>
+    <div>
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Cloudscape Innovations
+          </h6>
+          <p>
+            Empowering Your Digital Transformation
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://google.com/">cloudscape.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    </div>
+ 
+  </body>
+</html>
